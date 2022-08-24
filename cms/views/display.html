@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>List Customer</h1>
+<button style="margin-bottom: 20px" onclick="getAllCustomer()">Display Customer</button>
+<button onclick="formCreate()">Create new customer</button>
+<div id="list"></div>
+<div id="form" style="display: none"></div>
+<form>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td><label><input type="text" id="name"></label></td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td><label><input type="text" id="age"></label></td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><label><input type="text" id="address"></label></td>
+        </tr>
+        <tr>
+            <th>Department</th>
+            <td><label><input type="text" id="department"></label></td>
+        </tr>
+    </table>
+</form>
+</body>
+<script src="display.js"></script>
+</html>
